@@ -33,3 +33,25 @@ const myFunction = function(){
     
 }
 
+// +++++++++++++++++++++++++++++++++++++++++++
+
+let myNameIs = "PrashantJaybhaye"
+
+let anotherName = myNameIs
+anotherName = "Astra"
+
+console.log(myNameIs);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "Xyz@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "pqr@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
