@@ -47,14 +47,38 @@ const Users = [
 ]
 
 Users[1].email
-console.log(bumbleUser);
+// console.log(bumbleUser);
 
-console.log(Object.keys(bumbleUser));
-console.log(Object.values(bumbleUser));
-console.log(Object.entries(bumbleUser));
+// console.log(Object.keys(bumbleUser));
+// console.log(Object.values(bumbleUser));
+// console.log(Object.entries(bumbleUser));
 
-console.log(bumbleUser.hasOwnProperty('isLoggedIn')); // Questioning true
-
-
+// console.log(bumbleUser.hasOwnProperty('isLoggedIn')); // Questioning true
 
 
+const DataUser = {
+    id: "214",
+    name: "Prashanttt",
+    email_addressofUser: "Xyz@gmail.com",
+}
+
+// DataUser.email_addressofUser
+
+const {email_addressofUser: email}= DataUser // Destructure
+console.log(email);
+
+// ============== Json ================
+
+
+// {
+//     "name": "prashant",
+//     "coursename": "fullstackjava",
+//     "price": "123526"
+// }                                      // <==json Structure==>
+
+
+[
+    {},
+    {},
+    {}
+]
